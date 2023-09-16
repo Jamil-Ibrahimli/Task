@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first form</title>
+    <link rel="stylesheet" href="form.css" >
+
+  </head>
+  <body>
+    <form class="frame" action="action_page.php" method="post" >
+      <div class="main_heading">
+        <h1>Contact Form</h1>
+        <hr />
+      </div>
+      <div class="input_group">
+        <label class="lname" for="name">Name</label><br />
+        <input type="text" id="name" value="Jack Sullivan" />
+      </div>
+      <br />
+      <div class="input_group">
+        <label class="lemail"for="email">Email</label><br />
+        <input type="mail" id="email" placeholder="jack.s@email.com" required />
+      </div>
+      <br />
+      <div class="input_group">
+        <label class="lphone" for="phone">Phone No</label> <br />
+        <input type="tel"  class="inp_code" value="+994" required >
+        <input type="tel" class="inp_number" id="phone" value="554342332" required/>
+      </div>
+      <br />
+      <div class="input_group">
+        <label class="lbirthday" for="Bday">Date of Birth</label><br />
+        <input type="date" id="Bday" value="03-21-1980" required />
+      </div>
+      <br />
+
+      <div class="input_group">
+        <label class="lstate" for="stlist">State</label><br />
+        <input list="statelist" id="stlist" value="Gao" required />
+        <datalist id="statelist">
+          <option value="Gao"></option>
+          <option value="AZE"></option>
+          <option value="USA"></option>
+          <option value="GEO"></option>
+          <option value="PL"></option>
+          <option value="RUS"></option>
+          <option value="UKR"></option>
+          <option value="KZ"></option>
+          <option value="UZB"></option>
+          <option value="GB"></option>
+        </datalist>
+      </div>
+      <br />
+
+      <div class="input_group">
+        <label class="lpincode" for="pin">Pincode</label><br />
+        <input type="text" id="pin" pattern="[0-9]{6}" value="403001" required  />
+      </div>
+      <br />
+      <div class="input_group">
+        <label class="lmessage" for="mes">Message</label> <br />
+        <textarea
+          name="message"
+          id="mes"
+          placeholder="Write your message"
+        ></textarea>
+      </div>
+      <br />
+      <div class="input_group">
+        <input class="inp_checkbox" type="checkbox" id="privacy" required />
+        <label class="lcheckbox" for="privacy"> I agree with the privacy political</label>
+      </div>
+      <br />
+      
+      <input class="inp_sub" type="submit" value="Submit" required /></div>
+    </form>
+  </body>
+</html>

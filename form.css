@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Playfair+Display:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dad6d6;
+}
+
+.frame {
+  width: 400px;
+  height: 852px;
+  margin: 43px auto;
+  border-radius: 4px;
+  padding: 40px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1 {
+  color: var(--ppp-black, #000);
+  font-family: "Outfit", sans-serif;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600px;
+  line-height: normal;
+}
+hr {
+  border: 1px solid #d7dedd;
+  margin: 20px auto;
+}
+
+.input_group {
+  width: 320px;
+  height: 72px;
+  display: inline-block;
+  gap: 4px;
+}
+
+input {
+  width: 320px;
+  height: 40px;
+  border: 1px solid #d7dedd;
+  gap: 8px;
+  border-radius: 6px;
+  padding: 8px;
+  display: inline-block;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: black;
+}
+
+.lname {
+  width: 27px;
+  height: 13px;
+  display: inline-block;
+  font-family: "Outfit", sans-serif;
+  font-size: 10px;
+  font-weight: 400px;
+  color: #000;
+}
+
+.lemail {
+  width: 25px;
+  height: 13px;
+  font-family: Outfit;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  color: black;
+  display: inline-block;
+}
+
+/*Phone No start*/
+.lphone {
+  width: 46px;
+  height: 13px;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+  color: #000;
+}
+
+.inp_code {
+  width: 48px;
+  height: 40px;
+  display: inline-block;
+}
+
+.inp_number {
+  width: 268px;
+  height: 40px;
+  display: inline-block;
+}
+/* Phone no end*/
+
+.lbirthday {
+  width: 58px;
+  height: 13px;
+  font-family: "Outfit", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  display: inline-block;
+  color: #000;
+}
+
+.lstate {
+  width: 24px;
+  height: 13px;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+  color: #000;
+}
+
+.lpincode {
+  width: 36px;
+  height: 18px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12.6px;
+  color: #000;
+}
+
+/*Message section start*/
+.lmessage {
+  width: 40px;
+  height: 13px;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+}
+
+textarea {
+  width: 320px;
+  height: 129px;
+  border-radius: 6px;
+  border: 1px solid #d7dedd;
+  padding: 8px;
+  gap: 8px;
+  font-family: "Outfit", sans-serif;
+} /*message section end*/
+
+.lcheckbox {
+  width: 169px;
+  height: 20px;
+  display: inline-block;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000;
+  margin-top: 20px;
+}
+
+.inp_checkbox {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  margin: 2px 2px;
+  border: 1.5px solid black;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.inp_sub {
+  width: 320px;
+  height: 40px;
+  border-radius: 6px;
+  padding: 8px;
+  background-color: #5732ee;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+}
