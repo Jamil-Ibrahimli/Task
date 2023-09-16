@@ -17,6 +17,7 @@ body {
   border-radius: 4px;
   padding: 40px;
   background-color: white;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
   
 }
 
@@ -41,7 +42,7 @@ hr {
   gap: 4px;
 }
 
-input {
+input,select {
   width: 320px;
   height: 40px;
   border: 1px solid #d7dedd;
